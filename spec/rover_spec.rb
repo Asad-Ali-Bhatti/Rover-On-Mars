@@ -22,13 +22,12 @@ describe Rover do
 
   describe 'navigation' do
     describe '#COMPASS' do
-      let(:compass) { Rover::COMPASS }
+      subject(:compass) { Rover::COMPASS }
       it { expect(compass[0]).to   eq('E') }
       it { expect(compass[90]).to  eq('N') }
       it { expect(compass[180]).to eq('W') }
       it { expect(compass[270]).to eq('S') }
     end
 
-    
   end
 end

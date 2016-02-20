@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e07687-fcef-49a1-9b8b-970a0ee68404" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rover.rb" afterPath="$PROJECT_DIR$/lib/rover.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rover_spec.rb" afterPath="$PROJECT_DIR$/spec/rover_spec.rb" />
     </list>
     <ignored path="Rover-On-Mars.iws" />
@@ -24,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rover_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rover_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/rover_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8956661">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rover.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rover.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/rover.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.05778491">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,8 +86,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spec/plateau_spec.rb" />
         <option value="$PROJECT_DIR$/lib/plateau.rb" />
-        <option value="$PROJECT_DIR$/lib/rover.rb" />
         <option value="$PROJECT_DIR$/spec/rover_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/rover.rb" />
       </list>
     </option>
   </component>
@@ -364,18 +365,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/rover.rb">
+    <entry file="file://$PROJECT_DIR$/spec/rover_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rover_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/rover.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8956661">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.05778491">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
