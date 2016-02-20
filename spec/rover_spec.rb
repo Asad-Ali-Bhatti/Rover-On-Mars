@@ -10,7 +10,6 @@ describe Rover do
 
   subject(:rover) { Rover.new(plateau, "#{x_coordinate} #{y_coordinate} #{direction}") }
 
-
   it { should respond_to(:x) }
   it { should respond_to(:y) }
   it { should respond_to(:direction) }
@@ -20,4 +19,15 @@ describe Rover do
   it { expect(subject.x).to         eq(x_coordinate) }
   it { expect(subject.y).to         eq(y_coordinate) }
   it { expect(subject.direction).to eq(direction)    }
+
+  describe 'navigation' do
+    describe '#COMPASS' do
+      subject(:compass) { Rover::COMPASS }
+      it { expect(compass[0]).to   eq('E') }
+      it { expect(compass[90]).to  eq('N') }
+      it { expect(compass[180]).to eq('W') }
+      it { expect(compass[270]).to eq('S') }
+    end
+
+  end
 end
