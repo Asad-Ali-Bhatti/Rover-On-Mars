@@ -12,6 +12,19 @@ class Rover
   def move
   end
 
-  def spin
+  def spin(towards)
+    if towards == 'L'
+      spin_left
+    elsif towards == 'R'
+      spin_right
+    end
   end
-end 
+
+  def spin_left
+    self.direction = COMPASS[( COMPASS.key(self.direction) + 90 ) % 360]
+  end
+
+  def spin_right
+    self.direction = COMPASS[( COMPASS.key(self.direction) - 90 ) % 360]
+  end
+end
