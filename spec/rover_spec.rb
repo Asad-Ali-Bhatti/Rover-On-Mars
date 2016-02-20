@@ -45,7 +45,17 @@ describe Rover do
           expect(subject.direction).to eq('E')
         end
       end
+    end
 
+    describe '#Move' do
+      before { subject.direction = 'N' }
+      context 'North' do
+        it 'should increment y with 1 and x should stay same' do
+          subject.move
+          expect(subject.x).to eq(x_coordinate)
+          expect(subject.y).to eq(y_coordinate + 1)
+        end
+      end
     end
   end
 end

@@ -10,6 +10,16 @@ class Rover
   end
 
   def move
+    case self.direction
+      when 'N'
+        self.y += 1
+      when 'E'
+        self.x += 1
+      when 'S'
+        self.y -= 1
+      when 'W'
+        self.x -= 1
+    end
   end
 
   def spin(towards)
